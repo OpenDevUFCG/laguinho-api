@@ -1,10 +1,13 @@
 import express from 'express';
-
+import { getRepositories } from './github';
+ 
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    // TODO Fetch the repositories from OpenDevUFCG and the ones listed on ufcg-repo-data.js
-    res.json({text: "Hello World"});
+router.get('/', async (req, res) => {
+    const quantity = req.query.quantity;
+    const after = req.query.after;
+    const repos = await getRepositories(quantity, after)
+    res.json(repos);
 });
 
 export default router;

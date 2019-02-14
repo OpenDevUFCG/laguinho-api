@@ -4,7 +4,7 @@ import 'dotenv/config';
 
 import v1Router from './v1';
 
-const port = process.env.LAGUINHO_PORT ? process.env.LAGUINHO_PORT : 8080;
+const port = process.env.LAGUINHO_PORT || 8080;
 const app = express();
 
 app.use(cors());

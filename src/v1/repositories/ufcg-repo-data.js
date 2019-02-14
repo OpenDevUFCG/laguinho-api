@@ -1,25 +1,26 @@
 const projects = {
     org: 'OpenDevUFCG',
     repositories: [
-        'calluswhatyouwant/spotify-web-sdk': {
+        {
+            name: 'calluswhatyouwant/spotify-web-sdk',
             difficulty: 'avancado',
-        },
-        'calluswhatyouwant/musicritic': {
+        }, {
+            name: 'calluswhatyouwant/musicritic',
             difficulty: 'avancado',
-        },
-        'paulojbleitao/pokedex': {
+        }, {
+            name: 'paulojbleitao/pokedex',
             difficulty: 'intermediario',
-        },
-        'SubmiBot/SubmiBot': {
+        }, {
+            name: 'SubmiBot/SubmiBot',
             difficulty: 'intermediario',
-        },
-        'marianabianca/pomodoro': {
+        }, {
+            name: 'marianabianca/pomodoro',
             difficulty: 'iniciante',
-        },
-        'P-Sync/P-Sync': {
+        }, {
+            name: 'P-Sync/P-Sync',
             difficulty: 'intermediario',
-        },
-        'FelipeMarinho97/iskra-webkit-greeter': {
+        }, {
+            name: 'FelipeMarinho97/iskra-webkit-greeter',
             difficulty: 'intermediario',
         },
     ],
