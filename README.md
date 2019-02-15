@@ -2,9 +2,9 @@
  
 Assim como o Laguinho da UFCG é o ponto mais central da universidade, esta API que centralizará os dados utilizados nos repositórios da OpenDevUFCG.
 
-Os dados serão abertos e todos podem contribuir com mais dados e endpoints. Em breve mais detalhes.
+Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md).
 
-[Documentação dos endpoints disponíveis](https://github.com/OpenDevUFCG/laguinho-api/blob/master/docs/README.md) 
+#### [Documentação dos endpoints disponíveis](https://github.com/OpenDevUFCG/laguinho-api/blob/master/docs/README.md)
 
 ## Desenvolvimento
 
