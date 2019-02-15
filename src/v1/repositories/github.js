@@ -1,5 +1,5 @@
 import axios from 'axios';
-import projects from './ufcg-repo-data';
+import projects from './repo-data';
 
 const getAxiosInstance = () => {
     const token = process.env.GITHUB_TOKEN || '';
