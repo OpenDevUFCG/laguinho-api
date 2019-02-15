@@ -1,4 +1,7 @@
 # Laguinho API
+
+[![Join the chat at https://gitter.im/OpenDevUFCG/laguinho-api](https://badges.gitter.im/OpenDevUFCG/laguinho-api.svg)](https://gitter.im/OpenDevUFCG/laguinho-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
  
 Assim como o Laguinho da UFCG é o ponto mais central da universidade, esta API que centralizará os dados utilizados nos repositórios da OpenDevUFCG.
 
