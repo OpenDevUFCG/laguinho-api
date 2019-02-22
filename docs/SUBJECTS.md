@@ -51,4 +51,4 @@ Para uma requisição `GET /v1/subjects` a API retornaria uma lista com as disci
 
 #### Como contribuir adicionando mais repositórios
 
-Caso você queira adicionar mais disciplinas que não estejam na listagem dos dados, poderá enviar um PR adicionando mais ocorrencias no csv `sub-data` em [`/src/v1/subjects/subj-data.csv`](https://github.com/OpenDevUFCG/laguinho-api/blob/master/src/v1/subjects/subj-data.csv) seguindo o padrão dos dados já inseridos.
+Caso você queira adicionar mais disciplinas que não estejam na listagem dos dados, poderá enviar um PR adicionando mais ocorrencias no arquivo `disciplinas-ppc-2017` em [`roadmap-cc/data/disciplinas-ppc-2017.csv`](https://github.com/OpenDevUFCG/roadmap-cc/blob/master/data/disciplinas-ppc-2017.csv) seguindo o padrão dos dados já inseridos.
