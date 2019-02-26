@@ -2,13 +2,18 @@
 
 [![Join the chat at https://gitter.im/OpenDevUFCG/laguinho-api](https://badges.gitter.im/OpenDevUFCG/laguinho-api.svg)](https://gitter.im/OpenDevUFCG/laguinho-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
+Assim como o Laguinho da UFCG é o ponto mais central da universidade, esta API centralizará os dados utilizados nos repositórios da OpenDevUFCG.
+
+## Galera top que ajuda a gente :heart:
+
+[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/0)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/0)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/1)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/1)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/2)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/2)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/3)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/3)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/4)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/4)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/5)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/5)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/6)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/6)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/7)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/7)
+
+Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md) e se joga no laguinho com a gente!
+
+## Documentação 
+
+Veja [aqui](https://github.com/OpenDevUFCG/laguinho-api/blob/master/docs/README.md) a documentação dos dos endpoints disponíveis
  
-Assim como o Laguinho da UFCG é o ponto mais central da universidade, esta API que centralizará os dados utilizados nos repositórios da OpenDevUFCG.
-
-Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md).
-
-#### [Documentação dos endpoints disponíveis](https://github.com/OpenDevUFCG/laguinho-api/blob/master/docs/README.md)
-
 ## Desenvolvimento
 
 Para executar o Laguinho API localmente, é necessário ter o `yarn` instalado e um Personal Access Token no github.
@@ -36,3 +41,5 @@ yarn start
 Deverá aparecer a mensagem `Listening on port 8080` e o servidor estará disponível em http://localhost:8080.
 
 Caso queira executar em uma porta diferente, poderá modificar no arquivo `.env`, que você já criou, o valor da variável `LAGUINHO_PORT` para a porta desejada.
+
+
