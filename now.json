@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "laguinho",
+    "env": {
+        "GITHUB_TOKEN": "@github_token"
+    },
+    "builds": [
+        {
+            "src": "build/index.js",
+            "use": "@now/node-server" 
+        }
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "build/index.js"}
+    ]
+}
