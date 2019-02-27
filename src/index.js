@@ -11,6 +11,10 @@ app.use(cors());
 
 app.use('/v1', v1Router);
 
+app.get('/', (req, res) => {
+    res.json({ status: 'running' });
+})
+
 app.listen(port, () => {
     console.log(`Listening on port ${port}`);
 });
