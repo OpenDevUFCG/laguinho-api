@@ -1,7 +1,7 @@
 import axios from 'axios';
 import projects from './repo-data';
 
-const getAxiosInstance = () => {
+export const getAxiosInstance = () => {
     const token = process.env.GITHUB_TOKEN || '';
     const config = {
         baseURL: 'https://api.github.com',
