@@ -1,4 +1,4 @@
-# Laguinho API [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE)
+# Laguinho API [![chat on Discord](https://img.shields.io/discord/558293573494112257.svg?logo=discord)](https://discordapp.com/invite/vFFGGEE) [![Build Status](https://semaphoreci.com/api/v1/juanbarros2/laguinho-api/branches/master/badge.svg)](https://semaphoreci.com/juanbarros2/laguinho-api)
 
 
 
