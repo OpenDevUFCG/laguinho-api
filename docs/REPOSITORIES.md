@@ -1,6 +1,6 @@
-# `/v1/repositories`
+# `/v1/repositorios`
 
-### `GET /v1/repositories` - Recuperar repositórios abertos de alunos de computação na UFCG
+### `GET /v1/repositorios` - Recuperar repositórios abertos de alunos de computação na UFCG
 
 #### Parametros:
 
@@ -12,7 +12,7 @@ Parametros indicados com `*` são obrigatórios
 
 #### Exemplo de retorno:
 
-Para uma requisição `GET /v1/repositories?quantity=2` a API retornaria os dois primeiros repositórios da lista, algo como:
+Para uma requisição `GET /v1/repositorios?quantity=2` a API retornaria os dois primeiros repositórios da lista, algo como:
 
 ```json
 {
@@ -42,8 +42,8 @@ Para uma requisição `GET /v1/repositories?quantity=2` a API retornaria os dois
 }
 ```
 
-O atributo `endCursor` é o cursor indicando o "ponto de parada da listagem", ele serve para caso queira carregar os próximos repositórios da lista, poderá adicionar o parâmetro `after` com o valor do `endCursor` à requisição (ex: `GET /v1/repositories?quantity=2&after=Y3Vyc29yOjI=`)
+O atributo `endCursor` é o cursor indicando o "ponto de parada da listagem", ele serve para caso queira carregar os próximos repositórios da lista, poderá adicionar o parâmetro `after` com o valor do `endCursor` à requisição (ex: `GET /v1/repositorios?quantity=2&after=Y3Vyc29yOjI=`)
 
 #### Como contribuir adicionando mais repositórios
 
-Caso você queira adicionar mais projetos Open Source de alunos da UFCG na listagem dos dados, poderá enviar um PR adicionando mais ocorrencias no array `projects` em [`/src/v1/repositories/ufcg-repo-data.js`](https://github.com/OpenDevUFCG/laguinho-api/blob/master/src/v1/repositories/ufcg-repo-data.js) seguindo o padrão dos dados já inseridos.
+Caso você queira adicionar mais projetos Open Source de alunos da UFCG na listagem dos dados, poderá enviar um PR adicionando mais ocorrencias no array `projects` em [`/src/v1/repositorios/repositorios-data.js`](https://github.com/OpenDevUFCG/laguinho-api/blob/master/src/v1/repositorios/repositorios-data.js) seguindo o padrão dos dados já inseridos.

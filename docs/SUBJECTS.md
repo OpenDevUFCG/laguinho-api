@@ -1,11 +1,11 @@
-# `/v1/subjects`
+# `/v1/disciplinas`
 
-### `GET /v1/subjects` - Recuperar informações de disciplinas de computação na UFCG (PPC 2017).
+### `GET /v1/disciplinas` - Recuperar informações de disciplinas de computação na UFCG (PPC 2017).
 
 
 #### Exemplo de retorno:
 
-Para uma requisição `GET /v1/subjects` a API retornaria uma lista com as disciplinas, algo como:
+Para uma requisição `GET /v1/disciplinas` a API retornaria uma lista com as disciplinas, algo como:
 
 ```json
 [
