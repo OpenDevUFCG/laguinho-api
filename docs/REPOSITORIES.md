@@ -6,13 +6,13 @@
 
 Parametros indicados com `*` são obrigatórios
 
-- `quantity`: Quantidade máxima de repositórios na lista retornada, na ausencia do parametro, será retornado 10 por padrão
+- `quantidade`: Quantidade máxima de repositórios na lista retornada, na ausencia do parametro, será retornado 10 por padrão
 
-- `after`: Cursor indicando a partir de qual repositório deverá iniciar a lista retornada.
+- `apos`: Cursor indicando a partir de qual repositório deverá iniciar a lista retornada.
 
 #### Exemplo de retorno:
 
-Para uma requisição `GET /v1/repositorios?quantity=2` a API retornaria os dois primeiros repositórios da lista, algo como:
+Para uma requisição `GET /v1/repositorios?quantidade=2` a API retornaria os dois primeiros repositórios da lista, algo como:
 
 ```json
 {
@@ -42,7 +42,7 @@ Para uma requisição `GET /v1/repositorios?quantity=2` a API retornaria os dois
 }
 ```
 
-O atributo `endCursor` é o cursor indicando o "ponto de parada da listagem", ele serve para caso queira carregar os próximos repositórios da lista, poderá adicionar o parâmetro `after` com o valor do `endCursor` à requisição (ex: `GET /v1/repositorios?quantity=2&after=Y3Vyc29yOjI=`)
+O atributo `endCursor` é o cursor indicando o "ponto de parada da listagem", ele serve para caso queira carregar os próximos repositórios da lista, poderá adicionar o parâmetro `apos` com o valor do `endCursor` à requisição (ex: `GET /v1/repositorios?quantidade=2&apos=Y3Vyc29yOjI=`)
 
 #### Como contribuir adicionando mais repositórios
 
