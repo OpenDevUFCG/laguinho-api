@@ -1,10 +1,10 @@
 import express from 'express';
-import repoRouter from './repositories/repo-controller';
-import subjRouter from './subjects/subj-controller'
+import repositoriosRouter from './repositorios/repositorios-controller';
+import disciplinasRouter from './disciplinas/disciplinas-controller'
 
 const router = express.Router();
 
-router.use('/repositories', repoRouter);
-router.use('/subjects', subjRouter)
+router.use('/repositorios', repositoriosRouter);
+router.use('/disciplinas', disciplinasRouter)
 
 export default router;

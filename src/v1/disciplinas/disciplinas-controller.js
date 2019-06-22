@@ -1,5 +1,5 @@
 import express from 'express';
-import { loadSubjects, loadSubjectsRelationships } from './subj-data';
+import { loadSubjects, loadSubjectsRelationships } from './disciplinas-data';
 
 const router = express.Router();
 
@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
     res.json(await loadSubjects());
 });
 
-router.get('/relationships', async (req, res) => {
+router.get('/relacionamentos', async (req, res) => {
     res.json(await loadSubjectsRelationships());
 });
 
