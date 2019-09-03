@@ -1,10 +1,9 @@
-from flask import Flask, jsonify
+from flask import Flask
 
-def create_app(config_filename):
-  app = Flask(__name__)
+def create_app(config_filename=None):
+    app = Flask(__name__)
+    @app.route('/')
+    def hello_world():
+        return 'Laguinho API is up and running.'
 
-  @app.route('/')
-  def hello_world():
-    return jsonify({'status': 'running'})
-  
-  return app
+    return app

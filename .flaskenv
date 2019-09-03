@@ -1,0 +1,2 @@
+FLASK_APP=laguinho
+FLAS_PORT=8080

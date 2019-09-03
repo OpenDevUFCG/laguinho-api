@@ -13,9 +13,11 @@ Flask = "==1.1.1"
 Jinja2 = "==2.10.1"
 MarkupSafe = "==1.1.1"
 Werkzeug = "==0.15.5"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.6"
 
 [scripts]
+lint = "pylint laguinho/"
 start = "flask run"
