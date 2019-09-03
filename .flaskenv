@@ -1,2 +1,3 @@
 FLASK_APP=laguinho
 FLASK_RUN_PORT=8080
+FLAS_ENV=development
