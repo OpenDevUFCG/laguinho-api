@@ -18,5 +18,4 @@ Werkzeug = "==0.15.5"
 python_version = "3.6"
 
 [scripts]
-printhello = "python -c \"print('Hello, world!')\""
 start = "flask run"
