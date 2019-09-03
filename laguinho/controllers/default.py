@@ -1,4 +1,4 @@
-from app import app
+from laguinho import app
 from flask import jsonify
 
 @app.route("/")
