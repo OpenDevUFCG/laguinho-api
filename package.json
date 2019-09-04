@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "cors": "^2.8.5",
     "csvtojson": "^2.0.8",
     "dotenv": "^6.2.0",
