@@ -15,4 +15,4 @@ python_version = "3"
 
 [scripts]
 lint = "pylint laguinho/"
-dev = "flask run"
+start = "flask run"
