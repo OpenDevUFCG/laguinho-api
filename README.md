@@ -14,4 +14,40 @@ Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja 
 
 ## Documentação 
 
-TODO...
+Este projeto é feito utilizando [Python 3](https://www.python.org/), você precisa tê-lo [instalado](https://www.python.org/downloads/) na sua máquina.
+
+### Configurando a máquina
+
+``` bash
+# instalando o pipenv
+$ pip install --user pipenv
+```
+
+### Configurando o projeto
+
+``` bash
+# clonando o repositório
+$ git clone https://github.com/OpenDevUFCG/laguinho-api.git
+$ cd laguinho-api
+
+# instalando as dependências
+$ pipenv install --dev
+
+# executando o script de inicialização da versão de desenvolvimento 
+$ pipenv run start 
+```
+Deverá aparecer a mensagem `Running on port 8080` e o servidor estará disponível em http://localhost:8080.
+
+Caso queira executar em uma porta diferente, terá que rodar o script de inicialização indicando a porta desejada, como por exemplo:
+
+``` bash
+pipenv run start --port PORTA_DESEJADA
+``` 
+
+## Como Contribuir
+
+Quer implementar alguma nova funcionalidade ou corrigir algum bug? Pode ir dando uma olhada nas issues abertas pra saber no que estamos trabalhando ou se preferir pode abrir sua própria caso queira corrigir ou adicionar algo novo! 
+
+Qualquer dúvida é só procurar a gente via [discord](https://discord.gg/vMcuNtt) ou pelas issues mesmo!  
+
+OBS: Esse ainda é um projeto em desenvolvimento, para acompanhar melhor, tudo começou com [esta issue](https://github.com/OpenDevUFCG/laguinho-api/issues/31), a partir dela você consegue chegar em toda a discussão sobre a API
