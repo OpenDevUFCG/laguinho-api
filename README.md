@@ -38,10 +38,10 @@ $ pipenv run start
 ```
 Deverá aparecer a mensagem `Running on port 8080` e o servidor estará disponível em http://localhost:8080.
 
-Caso queira executar em uma porta diferente, terá que rodar o script de inicialização indicando a porta desejada, como por exemplo:
+Caso queira executar em uma porta diferente, terá que rodar o script de inicialização indicando a porta desejada, como por exemplo, para mudar pra porta `5000`:
 
 ``` bash
-pipenv run start --port PORTA_DESEJADA
+pipenv run start --port 5000
 ``` 
 
 ## Como Contribuir
