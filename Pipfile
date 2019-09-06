@@ -9,6 +9,7 @@ pylint = "*"
 
 [packages]
 flask = "*"
+marshmallow = "*"
 
 [requires]
 python_version = "3"
