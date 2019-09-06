@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify
 from laguinho.models.metadata import MetadataSchema
 from marshmallow import ValidationError, EXCLUDE
 
-datasets = Blueprint('datasets',__name__,url_prefix="/datasets")
+datasets = Blueprint('datasets', __name__, url_prefix="/datasets")
 metadata = []
 
 @datasets.route("/publish", methods=['POST'])
