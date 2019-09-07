@@ -10,7 +10,7 @@ def publish():
     schema = MetadataSchema()
     result = schema.load(request.json, unknown=EXCLUDE)
     metadata.append(result)
-    return result
+    return result, 201
 
 @datasets.route("/metadata", methods=['GET'])
 def get_metadata():
