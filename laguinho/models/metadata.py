@@ -1,8 +1,6 @@
 from marshmallow import Schema, fields, pprint, validate
+from .validation_messages import get_required_error
 
-def get_required_error(attribute):
-        return { "required": { "message": attribute + " is required" } }
-        
 class DatasetMetadataSchema(Schema):
     name = fields.Str(
         required=True, 
