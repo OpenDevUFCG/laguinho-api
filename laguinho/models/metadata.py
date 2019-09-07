@@ -19,3 +19,5 @@ class DatasetMetadataSchema(Schema):
         required=True, 
         error_messages=get_required_error("format"))
     contributable = fields.Bool()
+
+dataset_metadata = DatasetMetadataSchema()
