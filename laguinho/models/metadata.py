@@ -1,5 +1,5 @@
 from marshmallow import Schema, fields, pprint, validate
-from .validation_messages import get_required_error
+from .error_messages import get_required_error
 
 class DatasetMetadataSchema(Schema):
     name = fields.Str(

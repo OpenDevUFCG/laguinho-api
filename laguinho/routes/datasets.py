@@ -13,4 +13,4 @@ def publish():
 
 @datasets.route("/datasets", methods=['GET'])
 def get_datasets():
-    return jsonify(datasets_metadata)
+    return dataset_metadata.dumps(datasets_metadata, many=True)
