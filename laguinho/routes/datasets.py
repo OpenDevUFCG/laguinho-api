@@ -9,8 +9,8 @@ datasets_metadata = []
 def publish():
     result = dataset_metadata.load(request.json, unknown=EXCLUDE)
     datasets_metadata.append(result)
-    return result, 201
+    return jsonify(result), 201
 
 @datasets.route("/datasets", methods=['GET'])
 def get_datasets():
-    return dataset_metadata.dumps(datasets_metadata, many=True)
+    return jsonify(datasets_metadata)
