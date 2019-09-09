@@ -11,6 +11,14 @@ def publish():
     datasets_metadata.append(result)
     return jsonify(result), 201
 
-@datasets.route("/datasets", methods=['GET'])
+@datasets.route("/datasets/", methods=['GET'])
 def get_datasets():
     return jsonify(datasets_metadata)
+
+@datasets.route("/datasets/<name>", methods=['GET'])
+def get_datasets_by_name(name):
+  search_result = list(
+    filter(lambda dataset: dataset['name'] == name, datasets_metadata))
+  
+  result = search_result[0] if len(search_result) > 0 else None
+  return jsonify({"dataset": result}), 200
