@@ -15,7 +15,7 @@ def publish():
 def get_datasets():
     return jsonify(datasets_metadata)
 
-@datasets.route("/datasets/<name>", methods=['GET'])
+@datasets.route("/datasets/<name>/", methods=['GET'])
 def get_datasets_by_name(name):
   search_result = list(
     filter(lambda dataset: dataset['name'] == name, datasets_metadata))
