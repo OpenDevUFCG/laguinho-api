@@ -16,6 +16,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 - Endpoint `/datasets/` para requisições GET, que vai retornar os datasets cadastrados.
 - Endpoint `/datasets/` para requisições POST, para publicar um novo dataset.
 - Endpoint `/datasets/<nome>/` para requisições GET, que vai retornar metadados a respeito de um dataset a partir do seu nome.
+- Esse arquivo de changelog para servir de exemplo para lançamentos futuros.
 
 ### Modificado
 
@@ -24,9 +25,3 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 ### Removido
 
 - API feita em `node`.
-
-## [0.0.1] - 10/09/2019
-
-### Adicionado
-
-- Esse arquivo de changelog para servir de exemplo para lançamentos futuros.
