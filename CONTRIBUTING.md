@@ -20,7 +20,7 @@ A estrutura de arquivos do projeto se assemelha ao exemplo abaixo:
     /routes
         __init__.py
         datasets.py
-        [ futuras outros arquivos para rotas ]
+        [ futuros outros arquivos para rotas ]
     /errors
         __init__.py
         handlers.py
