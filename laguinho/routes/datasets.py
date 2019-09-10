@@ -19,6 +19,9 @@ def get_datasets():
 def get_datasets_by_name(name):
   search_result = list(
     filter(lambda dataset: dataset['name'] == name, datasets_metadata))
+
+  if len(search_result) > 0:
+    # A busca encontrou resultado.
+    return jsonify(search_result[0]), 200
   
-  result = search_result[0] if len(search_result) > 0 else None
-  return jsonify({"dataset": result}), 200
+  return jsonify({"error": 'Dataset not found!'}), 404
