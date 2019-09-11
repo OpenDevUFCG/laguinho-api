@@ -6,7 +6,6 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
----
 
 ## [0.0.1] - 10/09/2019
 
