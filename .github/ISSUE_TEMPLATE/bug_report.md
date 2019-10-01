@@ -6,26 +6,27 @@ labels: 'bug'
 ---
 
 **Descreva o bug**
-Uma descrição clara e concisa do que consiste o bug.
+<!-- Uma descrição clara e concisa do que consiste o bug. -->
 
 **Reprodução do bug**
-Passos para reproduzir o comportamento indesejado:
+<!-- Passos para reproduzir o comportamento indesejado:
 1. Vá para '...'
 2. Clique em '....'
 3. Role até '....'
-4. Veja o erro
+4. Veja o erro -->
 
 **Comportamento desejado**
-Uma descrição clara sobre como deveria ser o comportamento esperado.
+<!-- Uma descrição clara sobre como deveria ser o comportamento esperado. -->
 
 **Capturas de tela**
-Se aplicável, adicione capturas de tela para ajudar na descrição do problema.
+<!-- Se aplicável, adicione capturas de tela para ajudar na descrição do problema. -->
 
 **Desktop:**
- - SO: [e.g. iOS]
- - Navegador: [e.g. chrome, safari]
- - Software: [e.g. insomnia, postman]
- - Versão: [e.g. 22]
+ <!-- Por exemplo:
+- SO: [e.g. Mac OS, Linux Mint, Ubuntu]
+- Navegador: [e.g. chrome, safari]
+- Software: [e.g. insomnia, postman]
+- Versão: [e.g. 22] -->
 
 **Contexto adicional**
-Adicione qualquer outro contexto ao problema reportado aqui.
+<!-- Adicione qualquer outro contexto ao problema reportado aqui. -->
