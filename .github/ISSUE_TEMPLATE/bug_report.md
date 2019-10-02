@@ -21,7 +21,7 @@ labels: 'bug'
 **Capturas de tela**
 <!-- Se aplicável, adicione capturas de tela para ajudar na descrição do problema. -->
 
-**Desktop:**
+**Configuração do ambiente de desenvolvimento em que foi encontrado o bug:**
  <!-- Por exemplo:
 - SO: [e.g. Mac OS, Linux Mint, Ubuntu]
 - Navegador: [e.g. chrome, safari]
