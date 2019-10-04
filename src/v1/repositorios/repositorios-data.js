@@ -22,6 +22,12 @@ const projects = {
         }, {
             name: 'FelipeMarinho97/iskra-webkit-greeter',
             difficulty: 'intermediario',
+        }, {
+            name: 'Rickecr/PyGraph',
+            difficulty: 'intermediario',
+        }, {
+            name: 'Rickecr/CamaraDosDeputados',
+            difficulty: 'iniciante',
         },
     ],
 };
