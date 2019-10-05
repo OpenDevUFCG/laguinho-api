@@ -28,6 +28,12 @@ const projects = {
         }, {
             name: 'Rickecr/CamaraDosDeputados',
             difficulty: 'iniciante',
+        }, {
+            name: 'joseims/InsideOutDebugger',
+            difficulty: 'iniciante',
+        }, {
+            name: 'joseims/WhisperOutLoud',
+            difficulty: 'iniciante',
         },
     ],
 };
