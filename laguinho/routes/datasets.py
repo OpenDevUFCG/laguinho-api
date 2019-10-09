@@ -6,7 +6,8 @@ datasets = Blueprint('datasets', __name__)
 datasets_metadata = []
 
 def equals(dataset1, dataset2):
-    return (dataset1['url'] == dataset2['url'] and
+    return (dataset1['name'] == dataset2['name'] or
+            dataset1['url'] == dataset2['url'] and
             dataset1['path'] == dataset2['path'])
 
 def dataset_exists(incoming_dataset):
