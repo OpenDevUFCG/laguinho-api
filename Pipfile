@@ -17,3 +17,4 @@ python_version = "3"
 [scripts]
 lint = "pylint laguinho/"
 start = "flask run"
+test = "python test_script.py"
