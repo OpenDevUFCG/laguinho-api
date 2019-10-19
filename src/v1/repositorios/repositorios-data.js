@@ -17,9 +17,6 @@ const projects = {
             name: 'marianabianca/pomodoro',
             difficulty: 'iniciante',
         }, {
-            name: 'P-Sync/P-Sync',
-            difficulty: 'intermediario',
-        }, {
             name: 'FelipeMarinho97/iskra-webkit-greeter',
             difficulty: 'intermediario',
         }, {
@@ -34,7 +31,10 @@ const projects = {
         }, {
             name: 'joseims/WhisperOutLoud',
             difficulty: 'iniciante',
-        },
+        }, {
+            name: 'hericlesme/cast-sh',
+            difficulty: 'intermediario'
+        }
     ],
 };
 
