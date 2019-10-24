@@ -6,8 +6,7 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
-
-## [0.0.1] - 10/09/2019
+## [2.0.0] - 24/10/2019
 
 ### Adicionado
 
@@ -23,4 +22,4 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ### Removido
 
-- API feita em `node`.
+- API feita em `node` (versão 1.0.0-legacy).
