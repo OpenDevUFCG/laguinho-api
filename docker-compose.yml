@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  mongo-express:
+    image: mongo-express
+    restart: always
+    environment:
+      ME_CONFIG_BASICAUTH_USERNAME: opendevufcg
+      ME_CONFIG_BASICAUTH_PASSWORD: laguinhoapi
+      ME_CONFIG_MONGODB_PORT: 27017
+      ME_CONFIG_MONGODB_ADMINUSERNAME: opendevufcg
+      ME_CONFIG_MONGODB_ADMINPASSWORD: laguinhoapi
+    ports:
+      - 8081:8081
+    links:
+      - mongodb:mongo
+    networks:
+      - mongo-network
+
+  mongodb:
+    image: mongo
+    restart: always
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: opendevufcg
+      MONGO_INITDB_ROOT_PASSWORD: laguinhoapi
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./.mongo/data/db:/data/db
+    networks:
+      - mongo-network
+
+networks: 
+  mongo-network:
+    driver: bridge
