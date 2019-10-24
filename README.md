@@ -6,8 +6,6 @@
 
 Assim como o Laguinho da UFCG é o ponto mais central da universidade, esta API centralizará os dados utilizados nos repositórios da OpenDevUFCG.
 
-**_OBS: Estamos passando por um processo de reformulação da ideia e do projeto em si, o desenvolvimento do novo laguinho está acontecendo na [branch development](https://github.com/OpenDevUFCG/laguinho-api/tree/development) e as issues relacionadas estão marcadas com a label [`novo laguinho`](https://github.com/OpenDevUFCG/laguinho-api/labels/novo%20laguinho). Para saber mais sobre essa reformulação, veja a [Issue #31](https://github.com/OpenDevUFCG/laguinho-api/issues/31)._**
-
 ## Galera top que ajuda a gente :heart:
 
 [![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/0)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/0)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/1)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/1)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/2)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/2)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/3)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/3)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/4)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/4)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/5)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/5)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/6)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/6)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/7)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/7)
@@ -16,34 +14,40 @@ Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja 
 
 ## Documentação 
 
-Veja [aqui](https://github.com/OpenDevUFCG/laguinho-api/blob/master/docs/README.md) a documentação dos dos endpoints disponíveis
- 
-## Desenvolvimento
+Este projeto é feito utilizando [Python 3](https://www.python.org/), você precisa tê-lo [instalado](https://www.python.org/downloads/) na sua máquina.
 
-Para executar o Laguinho API localmente, é necessário ter o `yarn` instalado e um Personal Access Token no github.
+### Configurando a máquina
 
-### Gerando o Personal Access Token
-
-Siga os passos abaixo para gerar um token no github:
-
-1. Acesse [este link](https://github.com/settings/tokens) (solicitará login no github caso ainda não esteja logado)
-1. Clique em "Generate new token"
-1. Dê um nome ao token em "Token description" e marque a opção "public_repo"
-1. Clique em "Generate token"
-
-Após isso, o github exibirá o token, copie o token e crie um arquivo `.env` na raiz do projeto baseado no arquivo `.env.example` e modifique o valor da variável `GITHUB_TOKEN` adicionando o seu token.
-
-### Executando o servidor
-
-Para executar o servidor, basta rodar os seguintes comandos no terminal após a configuração do token:
-
-```
-yarn install
-yarn start
+``` bash
+# instalando o pipenv
+$ pip install --user pipenv
 ```
 
-Deverá aparecer a mensagem `Listening on port 8080` e o servidor estará disponível em http://localhost:8080.
+### Configurando o projeto
 
-Caso queira executar em uma porta diferente, poderá modificar no arquivo `.env`, que você já criou, o valor da variável `LAGUINHO_PORT` para a porta desejada.
+``` bash
+# clonando o repositório
+$ git clone https://github.com/OpenDevUFCG/laguinho-api.git
+$ cd laguinho-api
 
+# instalando as dependências
+$ pipenv install --dev
 
+# executando o script de inicialização da versão de desenvolvimento 
+$ pipenv run start 
+```
+Deverá aparecer a mensagem `Running on port 8080` e o servidor estará disponível em http://localhost:8080.
+
+Caso queira executar em uma porta diferente, terá que rodar o script de inicialização indicando a porta desejada, como por exemplo, para mudar pra porta `5000`:
+
+``` bash
+pipenv run start --port 5000
+``` 
+
+## Como Contribuir
+
+Quer implementar alguma nova funcionalidade ou corrigir algum bug? Pode ir dando uma olhada nas issues abertas pra saber no que estamos trabalhando ou se preferir pode abrir sua própria caso queira corrigir ou adicionar algo novo! 
+
+Qualquer dúvida é só procurar a gente via [discord](https://discord.gg/vMcuNtt) ou pelas issues mesmo!  
+
+OBS: Esse ainda é um projeto em desenvolvimento, para acompanhar melhor, tudo começou com [esta issue](https://github.com/OpenDevUFCG/laguinho-api/issues/31), a partir dela você consegue chegar em toda a discussão sobre a API
