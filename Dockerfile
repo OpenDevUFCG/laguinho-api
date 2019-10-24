@@ -14,8 +14,8 @@ COPY . /opt/
 # this is needed to run on a single RUN to create only one container layer.
 RUN apk add --no-cache --virtual .build-deps gcc musl-dev \
  && pip install pipenv \
- && pipenv install python-dotenv \
+ && pipenv install waitress \
  && pipenv install --deploy --system \
  && apk del .build-deps
 
-ENTRYPOINT ["pipenv", "run", "start", "--port", "80"]
+ENTRYPOINT ["pipenv", "run", "waitress-serve", "--port=80", "--call", "laguinho:create_app"]
