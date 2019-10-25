@@ -15,6 +15,7 @@ _mailinglist
 .idea/
 docs/_build/
 .vscode
+.mongo
 
 # Coverage reports
 htmlcov/
