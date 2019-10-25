@@ -16,7 +16,7 @@ Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja 
 
 Este projeto é feito utilizando [Python 3](https://www.python.org/), você precisa tê-lo [instalado](https://www.python.org/downloads/) na sua máquina.
 
-Para rodarmos as dependências de banco de dados e servidores externos, utilizamos Docker e Docker Compose, caso ainda náo tenha instalado na sua máquina, [esse tutorial](https://docs.docker.com/install/) ajuda a instalar o docker e [esse tutorial](https://docs.docker.com/compose/install/) ajuda a instalar o docker-compose, mas lembre-se que qualquer dúvida no processo de instalação, sempre tem algúem no [discord](https://discord.gg/vMcuNtt) pra ajudar!
+Para rodarmos as dependências de banco de dados e servidores externos, utilizamos Docker e Docker Compose, caso ainda não tenha instalado na sua máquina, [esse tutorial](https://docs.docker.com/install/) ajuda a instalar o docker e [esse tutorial](https://docs.docker.com/compose/install/) ajuda a instalar o docker-compose, mas lembre-se que qualquer dúvida no processo de instalação, sempre tem alguém no [discord](https://discord.gg/vMcuNtt) pra ajudar!
 
 ### Configurando a máquina
 
