@@ -30,10 +30,15 @@ def publish():
 
 @datasets.route("/datasets", methods=['GET'], strict_slashes=False)
 def get_datasets():
-    return jsonify(datasets_metadata.find())
+    dsets = list(datasets_metadata.find())
+    for ds in dsets:
+        del ds['_id']
+
+    return jsonify(dsets)
 
 
 @datasets.route("/datasets/<name>", methods=['GET'], strict_slashes=False)
 def get_datasets_by_name(name):
     search_result = datasets_metadata.find_one_or_404({'name': name})
+    del search_result['_id']
     return jsonify(search_result), 200
