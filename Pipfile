@@ -10,6 +10,7 @@ pylint = "*"
 [packages]
 flask = "*"
 marshmallow = "*"
+flask-pymongo = "*"
 
 [requires]
 python_version = "3"
