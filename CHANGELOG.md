@@ -6,6 +6,9 @@ e esse projeto adere a [Semantic Versioning](https://semver.org/lang/pt-BR/spec/
 
 ## [Não publicado]
 
+- Adiciona persistência de datasets utilizando MongoDB em vez de listas.
+- Adiciona formatação automática de código utilizando YAPF.
+
 ## [2.0.0] - 24/10/2019
 
 ### Adicionado
