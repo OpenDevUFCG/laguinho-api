@@ -4,7 +4,7 @@ from marshmallow import ValidationError, EXCLUDE
 from laguinho.extensions import mongo
 
 datasets = Blueprint('datasets', __name__)
-datasets_metadata = mongo.db['datasets']
+datasets_metadata = mongo.db.datasets
 
 
 def dataset_exists(dataset):
