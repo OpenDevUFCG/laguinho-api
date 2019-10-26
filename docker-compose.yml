@@ -24,7 +24,7 @@ services:
       MONGO_INITDB_ROOT_USERNAME: opendevufcg
       MONGO_INITDB_ROOT_PASSWORD: laguinhoapi
     ports:
-      - "27017:27017"
+      - 27017:27017
     volumes:
       - ./.mongo/data/db:/data/db
     networks:
