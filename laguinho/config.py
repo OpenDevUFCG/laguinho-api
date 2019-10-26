@@ -9,4 +9,6 @@ class BaseConfig:
                                default='opendevufcg')
     MONGO_PASSWORD = os.getenv('LAGUINHO_MONGO_PASSWORD',
                                default='laguinhoapi')
-    MONGO_URI = f'mongodb://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}:{MONGO_PORT}/{MONGO_DBNAME}?authSource=admin'
+    MONGO_AUTH_SOURCE = os.getenv('LAGUINHO_MONGO_AUTH_SOURCE',
+                               default='admin')
+    MONGO_URI = f'mongodb://{MONGO_USERNAME}:{MONGO_PASSWORD}@{MONGO_HOST}:{MONGO_PORT}/{MONGO_DBNAME}?authSource={MONGO_AUTH_SOURCE}'
