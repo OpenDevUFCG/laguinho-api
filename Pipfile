@@ -6,6 +6,7 @@ verify_ssl = true
 [dev-packages]
 python-dotenv = "*"
 pylint = "*"
+yapf = "*"
 
 [packages]
 flask = "*"
@@ -18,3 +19,4 @@ python_version = "3"
 [scripts]
 lint = "pylint laguinho/"
 start = "flask run"
+format = "yapf -i -r ./laguinho"

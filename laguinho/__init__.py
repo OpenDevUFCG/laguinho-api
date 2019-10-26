@@ -1,11 +1,13 @@
 from flask import Flask
 from .extensions import mongo
 
+
 def register_blueprints(app):
     from .errors.handlers import errors
     from .routes.datasets import datasets
     app.register_blueprint(errors)
     app.register_blueprint(datasets)
+
 
 def create_app(config='laguinho.config.BaseConfig'):
     app = Flask(__name__)
