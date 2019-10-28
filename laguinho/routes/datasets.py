@@ -29,11 +29,11 @@ def publish():
 
 @datasets.route("/datasets", methods=['GET'], strict_slashes=False)
 def get_datasets():
-    dsets = list(datasets_metadata.find({}, {'_id': 0}))
+    dsets = list(datasets_metadata.find({}, projection={'_id': False}))
     return jsonify(dsets)
 
 
 @datasets.route("/datasets/<name>", methods=['GET'], strict_slashes=False)
 def get_datasets_by_name(name):
-    search_result = datasets_metadata.find_one_or_404({'name': name}, {'_id': 0})
+    search_result = datasets_metadata.find_one_or_404({'name': name},  projection={'_id': False})
     return jsonify(search_result), 200
