@@ -28,7 +28,7 @@ A API é responsável por receber todas as requisições dos outros componentes 
 - Utilizar o que a comunidade compartilhou em seus projetos e pesquisas.
 - Encontrar pessoas que estão trabalhando com dados semelhantes.
 
-## Como contribuir
+## Contribua também
 
 Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md) e se joga no laguinho com a gente!
 
