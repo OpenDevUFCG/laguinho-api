@@ -6,7 +6,7 @@ Assim como o Laguinho da UFCG é (era) o ponto mais central da universidade, est
 
 # O que é o Laguinho
 
-Desenvolvedores e pesquisadores podem utilizar o laguinho para compartilhar e consumir diferentes tipos de dados, para auxiliar o desenvolvimento de aplicações ou de pesquisas.
+Desenvolvedores e pesquisadores podem utilizar o laguinho para compartilhar e consumir diferentes tipos de dados, com o objetivo de auxiliar o desenvolvimento de aplicações ou de pesquisas.
 
 O laguinho é composto por 3 componentes:
 
@@ -14,15 +14,21 @@ O laguinho é composto por 3 componentes:
 - [A interface de linha de comando (CLI)](https://github.com/OpenDevUFCG/laguinho-cli)
 - [A API de registro dos dados](https://github.com/OpenDevUFCG/laguinho-api)
 
-Use a interface Web para encontrar novos conjuntos de dados (datasets) e os compartilhar com a comunidade, além disso, crie seu perfil e favorite os melhores.
+Use a interface Web para encontrar novos conjuntos de dados ([datasets](https://www.aquare.la/datasets-o-que-sao-e-como-utiliza-los/)), favoritar os melhores e compartilhar outros com a comunidade, além disso, crie seu perfil e encontre pessoas com perfis semelhantes.
 
 A CLI é executada no terminal e é uma das formas de interagir com o Laguinho para quem tem familiariade, principalmente desenvolvedores.
 
 A API é responsável por receber todas as requisições dos outros componentes e permitir o registro e obtenção dos conjuntos de dados.
 
-## Galera top que ajuda a gente :heart:
+## Use o Laguinho para:
 
-[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/0)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/0)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/1)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/1)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/2)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/2)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/3)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/3)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/4)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/4)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/5)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/5)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/6)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/6)[![](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/images/7)](https://sourcerer.io/fame/JoseRenan/OpenDevUFCG/laguinho-api/links/7)
+- Compartilhar dados para pesquisas.
+- Favoritar os seus datasets preferidos.
+- Ter diversas informações centralizadas.
+- Utilizar o que a comunidade compartilhou em seus projetos e pesquisas.
+- Encontrar pessoas que estão trabalhando com dados semelhantes.
+
+## Como contribuir
 
 Os dados são abertos e todos podem contribuir com mais dados e endpoints. Veja mais detalhes no [CONTRIBUTING.md](CONTRIBUTING.md) e se joga no laguinho com a gente!
 
