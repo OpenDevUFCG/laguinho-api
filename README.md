@@ -16,7 +16,7 @@ O laguinho é composto por 3 componentes:
 
 Use a interface Web para encontrar novos conjuntos de dados ([datasets](https://www.aquare.la/datasets-o-que-sao-e-como-utiliza-los/)), favoritar os melhores e compartilhar outros com a comunidade, além disso, crie seu perfil e encontre pessoas com perfis semelhantes.
 
-A CLI é executada no terminal e é uma das formas de interagir com o Laguinho para quem tem familiariade, principalmente desenvolvedores.
+A CLI é executada no terminal e é uma das formas de interagir com o Laguinho para quem tem familiaridade, principalmente desenvolvedores.
 
 A API é responsável por receber todas as requisições dos outros componentes e permitir o registro e obtenção dos conjuntos de dados.
 
