@@ -23,22 +23,17 @@ def publish():
     result = dataset_metadata.load(request.json, unknown=EXCLUDE)
     if dataset_exists(result):
         return jsonify('Dataset already exists'), 409
-    datasets_metadata.insert_one(result)
-    del result['_id']
+    datasets_metadata.insert_one(result.copy())
     return jsonify(result), 201
 
 
 @datasets.route("/datasets", methods=['GET'], strict_slashes=False)
 def get_datasets():
-    dsets = list(datasets_metadata.find())
-    for ds in dsets:
-        del ds['_id']
-
+    dsets = list(datasets_metadata.find({}, projection={'_id': False}))
     return jsonify(dsets)
 
 
 @datasets.route("/datasets/<name>", methods=['GET'], strict_slashes=False)
 def get_datasets_by_name(name):
-    search_result = datasets_metadata.find_one_or_404({'name': name})
-    del search_result['_id']
+    search_result = datasets_metadata.find_one_or_404({'name': name},  projection={'_id': False})
     return jsonify(search_result), 200
